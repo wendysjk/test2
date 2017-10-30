@@ -22,7 +22,7 @@ body {
   
 }
 .boxed {
-    width: 600px;
+
     text-align: center;
    margin: auto;
 }
@@ -190,23 +190,19 @@ h3 {
     border: 1px solid #e3b5b5;
 }
 .intro {
-    padding-top: 100px;
-    padding-left: 300px;
+   
 }
 runa figure {
     text-align: center;
     
 }
-.aboutim {
-    float: left;
-    padding-left: 150px;
-}
+
 .koo{
     color: #8a4266;
     width: 300px;
     height: 300px;
     padding-top: 50px;
-   padding-left: 350px;
+   
     margin: auto;
 }
 
@@ -308,13 +304,15 @@ input[type=checkbox]:checked~.main-nav {
         max-width: 100%;
         padding: 0;
     }
-    .column3 {
+    .column3 img {
         width: 100%;
     }
-    .column4 {
-        width:100%;
+    .column4 img{
+        width: 100%;
     }
-}
+    .column5 {
+        width: 100%;
+    }
 
 
 /* smartphone and tablet: 480px to +/- 719px */
