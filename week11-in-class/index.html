@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Email Form Page Start</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css" media="all">
+    <link rel="stylesheet" href="css/styles-form-start.css" media="all">
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="main">
+            <article>
+                <h1 class="form-heading">Get in Touch with Me!</h1>
+                <div class="form-text">
+                    <p>Let me know what you're thinking! Send me a note with any questions or comments.</p>
+                </div>
+                <form method="post" action="show-data.php" autocomplete="off">
+                    <fieldset>
+                        <h2 class="sender-info">Your Contact Info</h2>
+                        <div class="fields">
+                            <p class="row">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first_name" class="field-large" required="required" autofocus="autofocus" />
+                            </p>
+                            <p class="row">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last_name" class="field-large" required="required" />
+
+                            </p>
+                            <p class="row">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" class="field-large" required="required" />
+
+                            </p>
+                            <p class="row-questions">
+                                <label for="question-or-comment">Your question or comment</label>
+                                <textarea id="question-or-comment" name="question_or_comment" cols="20" rows="4" placeholder="Something pithy and witty. No pressure, though." class="field-large" required="required"></textarea>
+                            </p>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <h2 class="sender-info">Emails</h2>
+                        <div class="fields-checkboxes">
+                            <div class="row">
+                                <input type="checkbox" id="email-ok-news" name="email_signup[]" value="user-emails" />
+                                <label for="email-ok-news">It is okay to email me with the latest news.</label>
+                            </div>
+                            <div class="row">
+                                <input type="checkbox" id="email-ok-occasional-updates" name="email_signup[]" value="occasional-updates" />
+                                <label for="email-ok-occasional-updates">It is okay to share my contact information with complete strangers. For money.</label>
+                            </div>
+                            
+                        </div>
+                    </fieldset>
+                    <div class="button-wrapper">
+                        <input type="submit" value="Send" class="button" />
+                    </div>
+                </form>
+            </article>
+        </div>
+    </div>
+    <footer class="site-info">
+    </footer>
+</body>
+
+</html>

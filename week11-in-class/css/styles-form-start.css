@@ -1,0 +1,122 @@
+body {
+    background-color: #E9E9E9;
+    font-family: 'PTSans', Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 60em;
+    min-width: 40em;
+}
+
+.main-nav {
+    background-color: #EAAF31;
+    border-radius: 6px;
+    box-shadow: 0 0 6px 3px #DBDBDB;
+    margin: .5em auto .5em auto;
+    min-height: 5em;
+    width: 80%;
+}
+
+article {
+    /*Add a gradient to the box background*/
+    background: linear-gradient(#298CAD, #a5b9c9);
+    background-color: #298CAD;
+    border-radius: 6px;
+    box-shadow: 0 0 6px 3px #DBDBDB;
+    margin: 0 auto;
+    min-height: 50em;
+    position: relative;
+    width: 80%;
+}
+
+.site-info {
+    background-color: #A6C444;
+    border-radius: 6px;
+    box-shadow: 0 0 6px 3px #DBDBDB;
+    /*clear: both;*/
+    margin: .5em auto 5em auto;
+    min-height: 5em;
+    width: 80%;
+}
+
+article .form-heading {
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 2em;
+    padding-top: 1em;
+    position: relative;
+}
+
+.form-text {
+    color: #fff;
+    display: block;
+    margin: 0 auto 2.5em auto;
+    padding-top: 10px;
+    position: relative;
+    width: 85%;
+}
+
+textarea {
+    font: inherit;
+    padding: 2px;
+}
+
+.field-large {
+    width: 12em;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 60%;
+    position: relative;
+}
+
+.sender-info {
+    color: #0B3891;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+label {
+    color: #0B3891;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 12px;
+    position: relative;
+    text-align: right;
+    vertical-align: top;
+    width: 150px;
+
+}
+
+fieldset {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: .1em 1em 1em 1.5em;
+}
+
+.fields .row {
+    height: 1.5em;
+    margin: 1em 0 1em 0;
+    position: relative;
+    width: 100%;
+}
+
+.fields-checkboxes .row label {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+}
+
+.button-wrapper {
+    margin: 0 auto;
+    max-width: 15%;
+    position: relative;
+}
+
+.button {
+    margin-bottom: 1.5em;
+}
+
