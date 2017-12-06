@@ -53,7 +53,7 @@ nav ul {
     background-color: #384957;
     text-align: center;
     width: 100%;
-    height: 64px;
+
 }
 nav li {
    display:inline-block;
@@ -195,7 +195,7 @@ h2 {
     margin: 25px;
 }
 figure {
-    margin: -5px;
+
     text-align: center;
    
 }
@@ -236,6 +236,33 @@ runa figure {
    padding-left: 350px;
     margin: auto;
 }
+#bgvid { 
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(/media/thumbnails/new-england.jpg) no-repeat;
+background-size: cover; 
+}
+
+#vidpause {
+position: absolute;
+margin-top: 5%;
+margin-left: 5%;
+font-size: 1.1em;
+color: #fff;
+background-color: #44664D;
+background: -webkit-linear-gradient(#44664D, #C4C2C2);
+background: linear-gradient(#44664D, #C4C2C2);
+border: 0 none;
+cursor: pointer;
+border-radius: 3px;
+}
+
+#bgvid { transition: 1s opacity; 
+}
+
+.stopfade { opacity: .5; 
+}
 
 
 .main illustration {
@@ -248,7 +275,7 @@ runa figure {
 footer {
     background-color: #e3b5b5;
     clear: both;
-    margin-top: 0px;
+    margin-top: -5px;
     text-align: center;
 }
 footer p {

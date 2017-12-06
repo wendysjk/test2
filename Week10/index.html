@@ -5,6 +5,14 @@
     	<meta charset="utf-8" />
 	<title>Portfolio of Wendy Koo</title>
 	<link rel="stylesheet" href="./CSS/styles.css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#dropdown-content").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+</script>
 </head>
 
 <body>
@@ -34,10 +42,9 @@
 
         <article class="main">
             <figure>
-                <img src="imgs/arua1.jpg" alt="Homepage">
+                <img src="imgs/arua1.jpg" alt="Homepage" width="100%">
             </figure>
         </article>
-
         <footer>
             <p><small>Wendy Koo </small>&copy; 2017</p>
         </footer>
